@@ -24,15 +24,15 @@ w\:* {behavior:url(#default#VML);}
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Soltanmohammadi, Ehsan</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>909</o:TotalTime>
-  <o:Created>2023-01-25T18:57:00Z</o:Created>
-  <o:LastSaved>2023-01-25T18:57:00Z</o:LastSaved>
+  <o:TotalTime>921</o:TotalTime>
+  <o:Created>2023-01-25T19:30:00Z</o:Created>
+  <o:LastSaved>2023-01-25T19:30:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>2176</o:Words>
-  <o:Characters>12404</o:Characters>
-  <o:Lines>103</o:Lines>
+  <o:Words>2194</o:Words>
+  <o:Characters>12510</o:Characters>
+  <o:Lines>104</o:Lines>
   <o:Paragraphs>29</o:Paragraphs>
-  <o:CharactersWithSpaces>14551</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>14675</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -43,6 +43,8 @@ w\:* {behavior:url(#default#VML);}
 <link rel=colorSchemeMapping href="index_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
@@ -802,6 +804,12 @@ p.msonormal0, li.msonormal0, div.msonormal0
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -966,7 +974,13 @@ alt="Health Insurance Explained - RoundTable Medical Consultants" v:shapes="Pict
 
 <p class=MsoNormal align=center style='text-align:center'><b><span
 style='font-size:20.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>Data science applied on health Insurance data<o:p></o:p></span></b></p>
+mso-bidi-theme-font:minor-latin'>Data science applied on health Insurance <span
+class=GramE>data</span><o:p></o:p></span></b></p>
+
+<p>
+  All the works related to the following investigations could be find in: 
+  <a href="https://github.com/ehsansam90/Datascience-InsurenceData"> GitHub Repository</a>.
+</p>
 
 <p class=MsoNormal align=center style='text-align:center'><b><span
 style='font-size:14.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -991,8 +1005,9 @@ also presents an opportunity to explore deeper questions and build prediction
 models to estimate charges for various situations, further enhancing the
 effectiveness of insurance solutions. Overall, this project demonstrates the
 potential of data science as a tool for finding data-driven solutions in the
-insurance industry. The ultimate goal would be finding and training the best
-predictor model regarding to estimation of charges for test uses.<o:p></o:p></span></p>
+insurance industry. The <span class=GramE>ultimate goal</span> would be finding
+and training the best predictor model <span class=GramE>regarding to</span>
+estimation of charges for test uses.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1003,7 +1018,8 @@ performance of different models and determine the most appropriate one for our
 specific use case. By comparing the results of different scaling methods, we
 can also determine the best approach for handling the data, which can greatly
 impact the accuracy of the model. Through this process, we aim to optimize the
-performance of our model and gain a deeper understanding of the data<o:p></o:p></span></p>
+performance of our model and gain a deeper understanding of the <span
+class=GramE>data</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><b><span
 style='font-size:14.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1038,23 +1054,26 @@ importance of data investigation and familiarization.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'>I start the data manipulation with use of
-python and necessarily libraries as following<o:p></o:p></span></p>
+python and necessarily libraries as <span class=GramE>following</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>import numpy as np<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>import <span class=SpellE>numpy</span> as <span
+class=GramE>np</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>import pandas as pd<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>import pandas as <span class=GramE>pd</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>import seaborn as sns<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>import seaborn as <span class=SpellE><span
+class=GramE>sns</span></span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>import matplotlib.pyplot as plt<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>import <span class=SpellE><span class=GramE>matplotlib.pyplot</span></span>
+as <span class=SpellE>plt</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1064,13 +1083,16 @@ mso-bidi-theme-font:minor-latin'>Here is a brief description of the data situati
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'>&lt;code&gt;<o:p></o:p></span></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
+<p class=MsoNormal align=center style='text-align:center'><span class=GramE><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>df.info()<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>df.info(</span></span><span style='font-size:
+12.0pt;line-height:106%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>)<o:p></o:p></span></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+class=GramE><span style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin'>df.describe</span></span></span><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>df.describe()<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>()<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1085,9 +1107,9 @@ style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_3" o:spid="_x0000_i1054" type="#_x0000_t75" alt="Table&#10;&#10;Description automatically generated"
  style='width:172.5pt;height:126.5pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="index_files/image002.png" o:title="Table&#10;&#10;Description automatically generated"/>
+ <v:imagedata src="index_files/image003.png" o:title="Table&#10;&#10;Description automatically generated"/>
 </v:shape><![endif]--><![if !vml]><img width=230 height=169
-src="index_files/image003.png" alt="Table&#10;&#10;Description automatically generated"
+src="index_files/image004.png" alt="Table&#10;&#10;Description automatically generated"
 v:shapes="Picture_x0020_3"><![endif]></span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_4" o:spid="_x0000_i1053" type="#_x0000_t75" alt="Table&#10;&#10;Description automatically generated"
  style='width:177.5pt;height:128pt;visibility:visible;mso-wrap-style:square'>
@@ -1100,8 +1122,9 @@ line-height:106%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'>The data set looks clear and there is no null
-value, how ever based on observations, I decided to separate categorical and
-numeric columns for better analysis in next steps as following:<o:p></o:p></span></p>
+value, <span class=SpellE>how ever</span> based on observations, I decided to
+separate categorical and numeric columns for better analysis in next steps as
+following:<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1109,13 +1132,15 @@ mso-bidi-theme-font:minor-latin'>&lt;code&gt;<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>categorical = [column for column in df.columns
-if df[column].dtype == &quot;O&quot;]<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>categorical = [column for column in <span
+class=SpellE><span class=GramE>df.columns</span></span> if <span class=SpellE>df</span>[column].<span
+class=SpellE>dtype</span> == &quot;O&quot;]<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>numeric = [column for column in df.columns if
-column not in categorical]<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>numeric = [column for column in <span
+class=SpellE><span class=GramE>df.columns</span></span> if column not in
+categorical]<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1156,12 +1181,13 @@ style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'>Based on the results of our analysis, it has
 been concluded that the Body Mass Index (BMI) is normally distributed, and no
 outliers were identified in any of the numeric columns. Furthermore, the
-charges column was found to be right-skewed, as previously determined by
-comparing the mean, mode, and median of the charges column through the use of
-the describe method applied to the data. These findings provide valuable
-insights into the distribution of the data and inform any necessary actions to
-ensure the integrity and accuracy of the analysis. And for further modeling
-those values needs to be scaled which we going to discuss about.<o:p></o:p></span></p>
+charges column was found to be <span class=GramE>right-skewed</span>, as
+previously determined by comparing the mean, mode, and median of the charges
+column through the use of the describe method applied to the data. These
+findings provide valuable insights into the distribution of the data and inform
+any necessary actions to ensure the integrity and accuracy of the analysis. And
+for further modeling those values <span class=GramE>needs</span> to be scaled
+which we going to discuss about.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1208,7 +1234,7 @@ charges has been determined. This finding provides a deeper understanding of
 the underlying relationships between these variables and can inform further
 actions to optimize the performance of our model. The linear behavior
 identified in this analysis is crucial in developing accurate predictions and
-understanding the factors that contribute to the charges<o:p></o:p></span></p>
+understanding the factors that contribute to the <span class=GramE>charges</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1218,20 +1244,23 @@ mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'>Categorical values,<o:p></o:p></span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
+<p class=MsoNormal align=center style='text-align:center'><span class=GramE><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>In order to thoroughly investigate the
-potential issue of imbalance in categorical variable data, a thorough analysis
-is performed to demonstrate the ratio of value counts for each categorical
-column. This method allows for a comprehensive understanding of the distribution
-of values within the dataset and can inform further actions to address any
-imbalance issues. By conducting this analysis, we are able to gain valuable
-insights and make data-driven decisions to ensure the integrity and accuracy of
-the data<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>In order to</span></span><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'> thoroughly investigate the potential issue of
+imbalance in categorical variable data, a thorough analysis is performed to
+demonstrate the ratio of value counts for each categorical column. This method
+allows for a comprehensive understanding of the distribution of values within
+the dataset and can inform further actions to address any imbalance issues. By
+conducting this analysis, we are able to gain valuable insights and make
+data-driven decisions to ensure the integrity and accuracy of the <span
+class=GramE>data</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>The results would be as following :<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>The results would be as <span class=GramE>following
+:</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-no-proof:
@@ -1272,8 +1301,9 @@ comprehensive distribution analysis is performed on numeric columns to
 thoroughly examine the data for any outliers or anomalies. This method allows
 for a detailed understanding of the distribution of values within the dataset
 and can inform further actions to address any identified issues. By conducting
-this analysis, we are able to gain valuable insights and make data-driven
-decisions to ensure the integrity and accuracy of the data.<o:p></o:p></span></p>
+this analysis, we <span class=GramE>are able to</span> gain valuable insights
+and make data-driven decisions to ensure the integrity and accuracy of the
+data.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
@@ -1360,30 +1390,40 @@ style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><o:p>&nbsp;
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Dummy
 variables.<o:p></o:p></span></b></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
+<p class=MsoNormal align=center style='text-align:center'><span class=GramE><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>In order to effectively analyze and train our
-data, it is necessary to convert our categorical variables to numerical values.
-The following code snippet is utilized for this purpose, allowing for more
-accurate and efficient analysis and modeling. This step is crucial in preparing
-the data for machine learning algorithms, which typically work with numerical
-data, and enables a better understanding of the underlying relationships
-between the features and target variable.<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>In order to</span></span><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'> effectively analyze and train our data, it is
+necessary to convert our categorical variables to numerical values. The
+following code snippet is utilized for this purpose, allowing for more accurate
+and efficient analysis and modeling. This step is crucial in preparing the data
+for machine learning algorithms, which typically work with numerical data, and
+enables a better understanding of the underlying relationships between the
+features and target variable.<o:p></o:p></span></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+class=GramE><span style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin'>df.replace</span></span></span><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>df.replace({&quot;sex&quot;:{&quot;male&quot;:1,&quot;female&quot;:2},
-&quot;smoker&quot;:{&quot;yes&quot;:1,&quot;no&quot;:0}},inplace=True)<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>({&quot;sex&quot;:{&quot;male&quot;:1,&quot;female&quot;:2},
+&quot;smoker&quot;:{&quot;yes&quot;:1,&quot;no&quot;:0}},<span class=SpellE>inplace</span>=True)<o:p></o:p></span></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>df = pd.concat([df,
-pd.get_dummies(df['region'])], axis=1).drop(['region'],axis=1)<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>df</span></span><span style='font-size:12.0pt;
+line-height:106%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>
+= <span class=SpellE><span class=GramE>pd.concat</span></span>([<span
+class=SpellE>df</span>, <span class=SpellE>pd.get_dummies</span>(<span
+class=SpellE>df</span>['region'])], axis=1).drop(['region'],axis=1)<o:p></o:p></span></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>df = pd.concat([df,
-pd.get_dummies(df['children'])], axis=1).drop(['children'],axis=1)<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>df</span></span><span style='font-size:12.0pt;
+line-height:106%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>
+= <span class=SpellE><span class=GramE>pd.concat</span></span>([<span
+class=SpellE>df</span>, <span class=SpellE>pd.get_dummies</span>(<span
+class=SpellE>df</span>['children'])], axis=1).drop(['children'],axis=1)<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1393,11 +1433,12 @@ mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'>In addition to the previous analysis, a
 correlation heat map has been generated to provide an overview of the
-relationships between all of the results values. This visualization technique
-is useful for identifying patterns and correlations in the data, and can inform
-further actions to optimize the performance of our model. The correlation heat
-map provides a clear and intuitive representation of the data, allowing for
-quick and easy identification of the most relevant features and relationships<o:p></o:p></span></p>
+relationships between <span class=GramE>all of</span> the results values. This
+visualization technique is useful for identifying patterns and correlations in
+the <span class=GramE>data, and</span> can inform further actions to optimize
+the performance of our model. The correlation heat map provides a clear and
+intuitive representation of the data, allowing for quick and easy
+identification of the most relevant features and <span class=GramE>relationships</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-no-proof:
@@ -1429,13 +1470,13 @@ to optimize the accuracy of our model and ensure the integrity of the analysis.<
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>In this analysis, we will be utilizing the
-sklearn library in Python for scaling the data. This library provides a wide
-range of tools for data pre-processing, including the Standard Scaler method.
-By using this library, we can easily and efficiently apply the scaling method
-to our data, allowing for a more accurate and robust analysis. The use of
-industry standard libraries such as sklearn ensures that the results are
-reliable and widely accepted in the field.<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>In this analysis, we will be utilizing the <span
+class=SpellE>sklearn</span> library in Python for scaling the data. This
+library provides a wide range of tools for data pre-processing, including the
+Standard Scaler method. By using this library, we can easily and efficiently
+apply the scaling method to our data, allowing for a more accurate and robust
+analysis. The use of industry standard libraries such as <span class=SpellE>sklearn</span>
+ensures that the results are reliable and widely accepted in the field.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1443,41 +1484,19 @@ mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>from sklearn.model_selection import train_test_split<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>from <span class=SpellE><span class=GramE>sklearn.model</span>_selection</span>
+import <span class=SpellE>train_test_split</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>from sklearn import metrics<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>from <span class=SpellE>sklearn</span> import
+metrics<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>from sklearn.preprocessing import
-OneHotEncoder, StandardScaler, MinMaxScaler<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>#Scaling with StandardScaler<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>s_df = s.fit_transform(df[['bmi','age']])<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>s_df = pd.DataFrame(s_df,
-columns=df[['bmi','age']].columns.values)<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>df1 = df.drop(columns=['age','bmi'],axis=1)<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>df1 = pd.concat([df1, s_df], axis=1)<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>from <span class=SpellE><span class=GramE>sklearn.preprocessing</span></span>
+import <span class=SpellE>OneHotEncoder</span>, <span class=SpellE>StandardScaler</span>,
+<span class=SpellE>MinMaxScaler</span><o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1485,43 +1504,32 @@ mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'># scaling with MinMaxScaler<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>#Scaling with <span class=SpellE>StandardScaler</span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>s_df</span></span><span style='font-size:12.0pt;
+line-height:106%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>
+= <span class=SpellE>s.fit_transform</span>(<span class=SpellE>df</span>[['<span
+class=SpellE>bmi</span>','age']])<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>s_df</span></span><span style='font-size:12.0pt;
+line-height:106%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>
+= <span class=SpellE><span class=GramE>pd.DataFrame</span></span>(<span
+class=SpellE>s_df</span>, columns=<span class=SpellE>df</span>[['<span
+class=SpellE>bmi</span>','age']].<span class=SpellE>columns.values</span>)<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>mm = MinMaxScaler()<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>df1 = <span class=SpellE><span class=GramE>df.drop</span></span>(columns=['age','<span
+class=SpellE>bmi</span>'],axis=1)<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>mm_df = mm.fit_transform(df[['bmi','age']])<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>mm_df = pd.DataFrame(mm_df,
-columns=df[['bmi','age']].columns.values)<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>df2 = df.drop(columns=['age','bmi'],axis=1)<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>df2 = pd.concat([df2, mm_df], axis=1)<o:p></o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>In following, sklearn library is utilized in
-Python to separate our model into training and testing groups for validation
-purposes. This approach is widely accepted in the field of machine learning and
-allows for a more accurate assessment of the model's performance. Given the
-limited size of our dataset, with only 3000 records, a simple split of the data
-into training and testing groups with a ratio of 20% will suffice for this
-case. By using this method, we can ensure the integrity and robustness of our
-analysis while following best practices in the field.<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>df1 = <span class=SpellE><span class=GramE>pd.concat</span></span>([df1,
+<span class=SpellE>s_df</span>], axis=1)<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1529,7 +1537,62 @@ mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>X = df2.drop(['charges'],axis=1)<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'># <span class=GramE>scaling</span> with <span
+class=SpellE>MinMaxScaler</span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>mm = <span class=SpellE><span class=GramE>MinMaxScaler</span></span><span
+class=GramE>(</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>mm_df</span></span><span style='font-size:
+12.0pt;line-height:106%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>
+= <span class=SpellE>mm.fit_transform</span>(<span class=SpellE>df</span>[['<span
+class=SpellE>bmi</span>','age']])<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>mm_df</span></span><span style='font-size:
+12.0pt;line-height:106%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>
+= <span class=SpellE><span class=GramE>pd.DataFrame</span></span>(<span
+class=SpellE>mm_df</span>, columns=<span class=SpellE>df</span>[['<span
+class=SpellE>bmi</span>','age']].<span class=SpellE>columns.values</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>df2 = <span class=SpellE><span class=GramE>df.drop</span></span>(columns=['age','<span
+class=SpellE>bmi</span>'],axis=1)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>df2 = <span class=SpellE><span class=GramE>pd.concat</span></span>([df2,
+<span class=SpellE>mm_df</span>], axis=1)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>In following, <span class=SpellE>sklearn</span>
+library is utilized in Python to separate our model into training and testing
+groups for validation purposes. This approach is widely accepted in the field
+of machine learning and allows for a more accurate assessment of the model's
+performance. Given the limited size of our <span class=GramE>dataset</span>,
+with only 3000 records, a simple split of the data into training and testing
+groups with a ratio of 20% will suffice for this case. By using this method, we
+can ensure the integrity and robustness of our analysis while following best
+practices in the field.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin'>X = df2.drop(['charges'<span class=GramE>],axis</span>=1)<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1537,8 +1600,9 @@ mso-bidi-theme-font:minor-latin'>y = df2['charges']<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>X_train2, X_test2, y_train2, y_test2 =
-train_test_split(X, y, test_size = 0.2,random_state=42)<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>X_train2, X_test2, y_train2, y_test2 = <span
+class=SpellE>train_test_<span class=GramE>split</span></span><span class=GramE>(</span>X,
+y, <span class=SpellE>test_size</span> = 0.2,random_state=42)<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1552,10 +1616,11 @@ mso-bidi-theme-font:minor-latin'>Prediction models<o:p></o:p></span></b></p>
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'>This issue would fall under the category of
 supervised learning, specifically regression. In the initial phase, several
-models will be selected for examination in terms of performance. These include
-LinearRegression, DecisionTreeRegressor, and SGDRegressor. The R2 score and
-mean squared error metrics will be utilized to evaluate the models'
-performance. Which sklearn library is used for that.<o:p></o:p></span></p>
+models will be selected for examination in terms of performance. These include <span
+class=SpellE>LinearRegression</span>, <span class=SpellE>DecisionTreeRegressor</span>,
+and <span class=SpellE>SGDRegressor</span>. The R2 score and mean squared error
+metrics will be utilized to evaluate the models' performance. Which <span
+class=SpellE>sklearn</span> library is used for that.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1563,8 +1628,9 @@ mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>All the models are trained on traindata both
-once with applying MinMaxScaler and Once with StandardScaling method,<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>All the models are trained on <span
+class=SpellE>traindata</span> both once with applying <span class=SpellE>MinMaxScaler</span>
+and Once with <span class=SpellE>StandardScaling</span> method,<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1597,30 +1663,40 @@ mso-bidi-theme-font:minor-latin'>Voting regression, ensemble method is chosen
 to increase the accuracy of prediction. It's a simple yet powerful method that
 can be used to improve the accuracy of a regression model by combining the
 predictions of multiple models. It can also be used to reduce the variance of a
-single model by combining multiple models with different architectures. GradientBoostingRegressor,
-RandomForestRegressor and linear regression are chosen to be used on our
-VotinRegressor as follow:<o:p></o:p></span></p>
+single model by combining multiple models with different architectures. <span
+class=SpellE>GradientBoostingRegressor</span>, <span class=SpellE>RandomForestRegressor</span>
+and linear regression are chosen to be used on our <span class=SpellE>VotinRegressor</span>
+as follow:<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>reg1 = GradientBoostingRegressor(random_state=1)<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>reg1 = <span class=SpellE>GradientBoostingRegressor</span>(<span
+class=SpellE>random_state</span>=1)<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>reg2 = RandomForestRegressor(random_state=1)<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>reg2 = <span class=SpellE>RandomForestRegressor</span>(<span
+class=SpellE>random_state</span>=1)<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>reg3 = LinearRegression()<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>reg3 = <span class=SpellE><span class=GramE>LinearRegression</span></span><span
+class=GramE>(</span>)<o:p></o:p></span></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>ereg = VotingRegressor(estimators=[('gb',
-reg1), ('rf', reg2), ('lr', reg3)])<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>ereg</span></span><span style='font-size:12.0pt;
+line-height:106%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>
+= <span class=SpellE><span class=GramE>VotingRegressor</span></span><span
+class=GramE>(</span>estimators=[('<span class=SpellE>gb</span>', reg1), ('rf',
+reg2), ('<span class=SpellE>lr</span>', reg3)])<o:p></o:p></span></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
+<p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>ereg = ereg.fit(X_train, y_train)<o:p></o:p></span></p>
+mso-bidi-theme-font:minor-latin'>ereg</span></span><span style='font-size:12.0pt;
+line-height:106%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>
+= <span class=SpellE><span class=GramE>ereg.fit</span></span><span class=GramE>(</span><span
+class=SpellE>X_train</span>, <span class=SpellE>y_train</span>)<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1630,8 +1706,9 @@ mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'>A significant increase in R2_Score and
 decrease in MSE in case of using Standard scaled data announce the advantage of
-using VotingRegressor in this particular problem combine with StandardScaler as
-follows.<o:p></o:p></span></p>
+using <span class=SpellE>VotingRegressor</span> in this <span class=GramE>particular
+problem</span> <span class=GramE>combine</span> with <span class=SpellE>StandardScaler</span>
+as follows.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1666,8 +1743,9 @@ mso-bidi-theme-font:minor-latin'><o:p></o:p></span></p>
 <p class=MsoNormal align=center style='text-align:center'><b><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'>Visualization on performance of all models in
-two situation of Standard scaled and MinMaxScaled indicates that the best
-results would be in case of using Votinregressor model on Standard scaled
+two <span class=GramE>situation</span> of Standard scaled and <span
+class=SpellE>MinMaxScaled</span> indicates that the best results would be in
+case of using <span class=SpellE>Votinregressor</span> model on Standard scaled
 method.<o:p></o:p></span></b></p>
 
 <p class=MsoNormal align=center style='text-align:center'><b><span
@@ -1676,7 +1754,7 @@ mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></b></p>
 
 <p class=MsoNormal align=center style='text-align:center'><b><span
 style='font-size:14.0pt;line-height:106%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'>Residual Calculation :<o:p></o:p></span></b></p>
+mso-bidi-theme-font:minor-latin'>Residual <span class=GramE>Calculation :</span><o:p></o:p></span></b></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
@@ -1695,8 +1773,9 @@ style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
 mso-bidi-theme-font:minor-latin'>Residuals are used to evaluate the performance
 of a regression model. A good regression model should have residuals that are
 randomly distributed around zero, with no patterns or trends. If the residuals
-exhibit patterns or trends, it indicates that the model is not capturing all of
-the information in the data, and the model may need to be modified or refined.<o:p></o:p></span></p>
+exhibit patterns or trends, it indicates that the model is not capturing <span
+class=GramE>all of</span> the information in the data, and the model may need
+to be modified or refined.<o:p></o:p></span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:106%;mso-bidi-font-family:Calibri;
